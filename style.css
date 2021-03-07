@@ -1,67 +1,93 @@
-h1{text-align: center;
+h1 {
+	text-align: center;
 }
+
 
 /*#author{
 	text-align: right;
 }
 */
-html{
-	font-family:"Arial";
+
+html {
+	background-color: #dddddd;
+	font-family: "Arial";
 }
 
 #main {
-		text-align: left;
-  margin: auto;
-  width: 60%;
-  border: 3px solid grey;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-#algorithm{
+	background-color: white;
+	text-align: left;
 	margin: auto;
-	width: 80%;
-	padding: 20px;
+	width: 60%;
 	border: 2px solid grey;
+	padding: 10px;
 	border-radius: 5px;
 }
 
-#subtitle{
+#algorithm {
+	margin: auto;
+	width: 80%;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+}
+
+#subtitle {
 	text-align: center;
 }
 
-
-.gif{
-    height: auto;
+.gif {
+	height: auto;
 	width: 50%;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
 }
 
-.label{
+.label {
 	text-align: center;
 }
 
-.bold{	
-	  font-weight: bold;
+.bold {
+	font-weight: bold;
 }
 
 .flex-child {
-    flex: 1;
-    text-align: center;
-}  
+	flex: 1;
+	text-align: center;
+}
 
 .flex-child:first-child {
-    margin-right: 2px;
-} 
+	margin-right: 2px;
+}
 
-.flex{
+.flex {
 	display: flex;
 }
 
-.testImg{
-	width:90%;
+.testImg {
+	width: 90%;
 	height: auto;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	border-collapse: collapse;
+	border: 1px solid #dddddd;
+}
+
+table tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+th {
+	text-align: left;
+	border: 1px solid #dddddd;
+}
+
+td {
+	border: 1px solid #dddddd;
+	text-align: center;
 }
