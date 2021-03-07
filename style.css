@@ -66,6 +66,7 @@ html {
 }
 
 .testImg {
+	padding: 10px;
 	width: 90%;
 	height: auto;
 }
@@ -76,18 +77,24 @@ table {
 	width: 80%;
 	border-collapse: collapse;
 	border: 1px solid #dddddd;
+	margin-bottom: 20px;
 }
 
 table tr:nth-child(even){
 	background-color: #f2f2f2;
 }
 
-th {
-	text-align: left;
-	border: 1px solid #dddddd;
-}
-
-td {
+#results td {
+	padding: 5px;
 	border: 1px solid #dddddd;
 	text-align: center;
 }
+
+ th, td{
+	border: 1px solid #dddddd;
+	padding: 5px;
+	text-align: left;
+}
+
+
+
