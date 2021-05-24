@@ -3,10 +3,10 @@ h1 {
 }
 
 
-/*#author{
-	text-align: right;
+#server_chart{
+	width: 80% !important;
 }
-*/
+
 
 html {
 	background-color: #dddddd;
